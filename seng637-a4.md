@@ -230,7 +230,7 @@ A portion of the grade for the lab report will be allocated to organization and 
 | Explain your test case design process                                                                                                                             | 10  |
 | Use of automated verification points in each script. If automated verification point is not used, provide valid reason                                            | 10  |
 | Use different test data per test. If not used, provide valid reason                                                                                               | 10  |
-| **Other (10)**                                                                                                                                                     |     |
+| **Other (10)**                                                                                                                                                    |     |
 | A discussion on how the team work/effort was divided and managed. Any lessons learned from your teamwork on this lab?                                             | 5   |
 |Comments/feedback on the assignment itself  | 5   |
 

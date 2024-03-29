@@ -1,0 +1,1075 @@
+{
+  "id": "b2cf6798-cb0d-4139-9fd6-bbc585caa2c7",
+  "version": "2.0",
+  "name": "Assignment_4",
+  "url": "https://www.leons.ca/",
+  "tests": [{
+    "id": "8be2a438-7b83-41af-bd67-3884c6b30cc1",
+    "name": "Invalid_login_Home_Depot",
+    "commands": [{
+      "id": "c604a887-d656-447f-b3f8-34f31317b117",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/myaccount",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "330a5f25-5c54-4ee4-ae81-f3e299559914",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1293x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19e67e99-f534-4222-ae7a-2831439a2c50",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=login.emailAddress",
+      "targets": [
+        ["id=login.emailAddress", "id"],
+        ["name=login.emailAddress", "name"],
+        ["css=#login\\.emailAddress", "css:finder"],
+        ["xpath=//input[@id='login.emailAddress']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "-95,15.5"
+    }, {
+      "id": "486c656f-a026-447f-a7f7-9ea77727ebb0",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=login.emailAddress",
+      "targets": [
+        ["id=login.emailAddress", "id"],
+        ["name=login.emailAddress", "name"],
+        ["css=#login\\.emailAddress", "css:finder"],
+        ["xpath=//input[@id='login.emailAddress']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "-95,15.5"
+    }, {
+      "id": "01dbbbb6-4eea-416a-8c51-9d07a4c1c9bd",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=login.emailAddress",
+      "targets": [
+        ["id=login.emailAddress", "id"],
+        ["name=login.emailAddress", "name"],
+        ["css=#login\\.emailAddress", "css:finder"],
+        ["xpath=//input[@id='login.emailAddress']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "-95,15.5"
+    }, {
+      "id": "bcdddd33-f576-4230-a5b5-2cd196ec5aac",
+      "comment": "",
+      "command": "click",
+      "target": "id=login.emailAddress",
+      "targets": [
+        ["id=login.emailAddress", "id"],
+        ["name=login.emailAddress", "name"],
+        ["css=#login\\.emailAddress", "css:finder"],
+        ["xpath=//input[@id='login.emailAddress']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff5c312c-ef6f-4eed-9a8b-7615d6313b96",
+      "comment": "",
+      "command": "type",
+      "target": "id=login.emailAddress",
+      "targets": [
+        ["id=login.emailAddress", "id"],
+        ["name=login.emailAddress", "name"],
+        ["css=#login\\.emailAddress", "css:finder"],
+        ["xpath=//input[@id='login.emailAddress']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "InvalidUsername"
+    }, {
+      "id": "55413377-9e29-42bc-ab81-31035006f317",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-col--12:nth-child(1) > div > .acl-mt--medium",
+      "targets": [
+        ["css=.acl-col--12:nth-child(1) > div > .acl-mt--medium", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4fad039-0db8-467c-9d53-e3ae20b1b955",
+      "comment": "",
+      "command": "click",
+      "target": "id=login.password",
+      "targets": [
+        ["id=login.password", "id"],
+        ["name=login.password", "name"],
+        ["css=#login\\.password", "css:finder"],
+        ["xpath=//input[@id='login.password']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6004af4-11a2-4fda-9a85-34390482eeae",
+      "comment": "",
+      "command": "type",
+      "target": "id=login.password",
+      "targets": [
+        ["id=login.password", "id"],
+        ["name=login.password", "name"],
+        ["css=#login\\.password", "css:finder"],
+        ["xpath=//input[@id='login.password']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "InvalidPassword"
+    }, {
+      "id": "2985924a-f437-4c1d-8239-bbc20fa8e714",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-input-wrapper__helper-action-button-icon > svg",
+      "targets": [
+        ["css=.hdca-input-wrapper__helper-action-button-icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb44a9c7-6665-448a-bcdd-dde54b8a9e81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-input-wrapper__helper-action-button-icon use",
+      "targets": [
+        ["css=.hdca-input-wrapper__helper-action-button-icon use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "458bb082-01cf-4080-834a-13cf557ee4b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button--theme--primary > .acl-button__label",
+      "targets": [
+        ["css=.acl-button--theme--primary > .acl-button__label", "css:finder"],
+        ["xpath=//form/div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "30c2dc94-5cb4-44a5-800b-09fa138a8f56",
+    "name": "Filter_results_Home_Depot",
+    "commands": [{
+      "id": "7f91854b-56ec-4fb7-9bc1-c4cb4269b7ae",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3020dce8-3b32-4e87-bda8-add7734a7d93",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "879x593",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfc919cb-8800-4ccd-9d59-633c10440aaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-mobile-toggle__link > .acl-color--title:nth-child(1) use",
+      "targets": [
+        ["css=.acl-flyout-mobile-toggle__link > .acl-color--title:nth-child(1) use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fb49d11-a222-48fa-87eb-22cdf6550294",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shop by Department",
+      "targets": [
+        ["linkText=Shop by Department", "linkText"],
+        ["css=.acl-flyout-category-menu-item--l0:nth-child(1) .acl-flyout-category-menu-item__link", "css:finder"],
+        ["xpath=//acl-dropdown[@id='global-header-sbd-flyout-menu-dropdown']/div[4]/acl-flyout-menu-main/div/div[2]/div/div/div[2]/acl-flyout-category-menu-item/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[6]", "xpath:href"],
+        ["xpath=//acl-flyout-category-menu-item/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop by Department')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c46cd97c-088f-4c10-8ee2-4fcb6421f8a5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bath",
+      "targets": [
+        ["linkText=Bath", "linkText"],
+        ["css=#acl-flyout-menu-main__focus-wrapper--l1 > .acl-flyout-category-menu-item:nth-child(2) .acl-flyout-category-menu-item__link", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l1']/acl-flyout-category-menu-item[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/home/categories/bath.html')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/acl-flyout-category-menu-item[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bath')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5636189-1873-4ad4-b0c9-db8f2c4ff711",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44136dfc-8023-4bde-873d-d33d6faae809",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bathroom Vanities",
+      "targets": [
+        ["linkText=Bathroom Vanities", "linkText"],
+        ["css=.acl-flyout-category-menu-item--first-visible-desktop .acl-flyout-category-menu-item__link", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l2']/div/acl-flyout-category-menu-item/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/home/categories/bath/bathroom-vanities.html')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div[2]/div/acl-flyout-category-menu-item/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bathroom Vanities')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b0e4325-14bc-4179-9773-9849f7271635",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-flyout-category-menu-item--l3:nth-child(1) .acl-flyout-category-menu-item__link-text",
+      "targets": [
+        ["css=.acl-flyout-category-menu-item--l3:nth-child(1) .acl-flyout-category-menu-item__link-text", "css:finder"],
+        ["xpath=//div[@id='acl-flyout-menu-main__focus-wrapper--l3']/acl-flyout-category-menu-item/div/a/span", "xpath:idRelative"],
+        ["xpath=//acl-flyout-category-menu-item/div/div/div/div[2]/acl-flyout-category-menu-item/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Bathroom Vanities With Tops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e0de88-105c-4e9f-ae78-ec51940d67df",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,324)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7a7386f8-454c-48a1-a64f-8e63ebc9c57c",
+    "name": "Valid_login_Home_Depot",
+    "commands": [{
+      "id": "2975d3b6-3ed4-40c1-b785-8bea14164179",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/myaccount",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96a8f2c4-76cb-4972-910d-110c3a628230",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "879x594",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6583c41-da25-4ddc-8d38-93f6ad5919fc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "acb79732-2e49-4287-a9cf-ad9ecada6831",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=login.emailAddress",
+      "targets": [
+        ["id=login.emailAddress", "id"],
+        ["name=login.emailAddress", "name"],
+        ["css=#login\\.emailAddress", "css:finder"],
+        ["xpath=//input[@id='login.emailAddress']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "-90,-22"
+    }, {
+      "id": "f9555290-8e15-494e-8820-b1f9a757882f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=login.emailAddress",
+      "targets": [
+        ["id=login.emailAddress", "id"],
+        ["name=login.emailAddress", "name"],
+        ["css=#login\\.emailAddress", "css:finder"],
+        ["xpath=//input[@id='login.emailAddress']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "-90,-22"
+    }, {
+      "id": "ee8e4509-e4d8-430a-b01d-2028f008f7a5",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=login.emailAddress",
+      "targets": [
+        ["id=login.emailAddress", "id"],
+        ["name=login.emailAddress", "name"],
+        ["css=#login\\.emailAddress", "css:finder"],
+        ["xpath=//input[@id='login.emailAddress']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "-90,-22"
+    }, {
+      "id": "df4e2915-8b1f-494e-8cb9-df5740cab352",
+      "comment": "",
+      "command": "click",
+      "target": "id=login.emailAddress",
+      "targets": [
+        ["id=login.emailAddress", "id"],
+        ["name=login.emailAddress", "name"],
+        ["css=#login\\.emailAddress", "css:finder"],
+        ["xpath=//input[@id='login.emailAddress']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c042276-f3cf-4565-b06e-937d1343d771",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-col--12:nth-child(1) > div > .acl-mt--medium",
+      "targets": [
+        ["css=.acl-col--12:nth-child(1) > div > .acl-mt--medium", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "611e53ad-45c9-4d15-a33e-9380054dcb95",
+      "comment": "",
+      "command": "click",
+      "target": "id=login.password",
+      "targets": [
+        ["id=login.password", "id"],
+        ["name=login.password", "name"],
+        ["css=#login\\.password", "css:finder"],
+        ["xpath=//input[@id='login.password']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a1888d0-2041-4ba2-bd88-5b27aa357c10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button--theme--primary > .acl-button__label",
+      "targets": [
+        ["css=.acl-button--theme--primary > .acl-button__label", "css:finder"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8973b28e-7ddd-4945-838d-1fb4a5b8b7fe",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,247.5)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "41fcf71e-4e89-4972-87a8-c52c49d9bc01",
+    "name": "Add_to_Cart_Home_Depot",
+    "commands": [{
+      "id": "eed3d869-0d4f-40a0-a33f-2fba70264db9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/product/ryobi-18v-one-lithium-ion-cordless-drill-driver-kit-with-1-5-ah-battery-and-charger/1001686659",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42fdf6a1-9a14-4519-9345-de19a6c225f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "879x598",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "307c9e82-9c1b-470c-966d-2b929612b7f7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,102)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb00f6ab-145b-43d0-9e10-8e60f1b768b2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=product-atc",
+      "targets": [
+        ["id=product-atc", "id"],
+        ["css=#product-atc", "css:finder"],
+        ["xpath=//button[@id='product-atc']", "xpath:attributes"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "315dc018-e805-4588-8587-b2529850d02f",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-atc",
+      "targets": [
+        ["id=product-atc", "id"],
+        ["css=#product-atc", "css:finder"],
+        ["xpath=//button[@id='product-atc']", "xpath:attributes"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c781e48-fef2-4934-ac65-05689164725d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=product-atc",
+      "targets": [
+        ["id=product-atc", "id"],
+        ["css=#product-atc", "css:finder"],
+        ["xpath=//button[@id='product-atc']", "xpath:attributes"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "445663ce-ed33-435b-96f9-1f0d9296c292",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button:nth-child(2) > .acl-button__label",
+      "targets": [
+        ["css=.acl-button:nth-child(2) > .acl-button__label", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2980feed-1de2-4939-a301-87540a137712",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,35)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d80a0af-a81b-4bf6-abab-578887db176e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,228.1666717529297)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df8f762e-6677-463b-8d9c-21faacaf4e95",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,271.6666564941406)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "24f5b479-f19d-42fc-9e44-ee2130fc599d",
+    "name": "Invalid_login_Shop_Smart",
+    "commands": [{
+      "id": "9a249ee3-d7b5-4107-b8ac-131734e6a77e",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "593aaedf-c6b4-4aa7-8dc0-a9b378b197c9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "879x599",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cff0a4f0-842b-4abf-a9cb-5ed65aa2780b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.navUser-action:nth-child(3) > .\\_label",
+      "targets": [
+        ["css=.navUser-action:nth-child(3) > .\\_label", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5803cd5f-dd15-4aab-97e8-6427d165c523",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navUser-action:nth-child(3) > .\\_label",
+      "targets": [
+        ["css=.navUser-action:nth-child(3) > .\\_label", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9de71d9-ddfa-475c-b635-1a55fba5dc0e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.navUser-action:nth-child(3) > .\\_label",
+      "targets": [
+        ["css=.navUser-action:nth-child(3) > .\\_label", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a94147db-a56e-49d8-86e5-1a1774e7bc2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navUser-action:nth-child(3) > .\\_label",
+      "targets": [
+        ["css=.navUser-action:nth-child(3) > .\\_label", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div[2]/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1a87e08-ebbb-490a-91c9-7a36e08330fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_email",
+      "targets": [
+        ["id=login_email", "id"],
+        ["name=login_email", "name"],
+        ["css=#login_email", "css:finder"],
+        ["xpath=//input[@id='login_email']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c397c6e2-774e-4019-8017-20820f842cbb",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_email",
+      "targets": [
+        ["id=login_email", "id"],
+        ["name=login_email", "name"],
+        ["css=#login_email", "css:finder"],
+        ["xpath=//input[@id='login_email']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "InvalidUser@Invalid.com"
+    }, {
+      "id": "ef15d1a8-54b9-4fb8-b1db-a6b749c57e46",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_pass",
+      "targets": [
+        ["id=login_pass", "id"],
+        ["name=login_pass", "name"],
+        ["css=#login_pass", "css:finder"],
+        ["xpath=//input[@id='login_pass']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "InvalidPassword"
+    }, {
+      "id": "512328bf-c20a-4e6d-bc46-822dd933d37f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-actions > .button",
+      "targets": [
+        ["css=.form-actions > .button", "css:finder"],
+        ["xpath=//input[@value='Sign in']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "189509a3-84c8-4526-ad78-1932f768bc75",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.form-actions > .button",
+      "targets": [
+        ["css=.form-actions > .button", "css:finder"],
+        ["xpath=//input[@value='Sign in']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d52eac49-3cb6-4cbc-9968-b114a3907878",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.form-actions > .button",
+      "targets": [
+        ["css=.form-actions > .button", "css:finder"],
+        ["xpath=//input[@value='Sign in']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[8]/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e08b6054-7cf1-4e40-a6cd-59703ac9c561",
+    "name": "Add_to_Cart_Shop_Smart",
+    "commands": [{
+      "id": "0232832f-e64f-4ff0-bc40-58e43f18700a",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a6c9e73-8a3a-41b7-b359-f57753db9456",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "879x600",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d9279c0-4b6c-47c9-af12-a4f55ae8a368",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sd-image-eb77471d-6b09-4101-bd04-f5a7497c2df8 > img",
+      "targets": [
+        ["css=#sd-image-eb77471d-6b09-4101-bd04-f5a7497c2df8 > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn11.bigcommerce.com/s-hwkzcsx88c/images/stencil/original/image-manager/18-4-.png?t=1703560708')]", "xpath:img"],
+        ["xpath=//div[@id='sd-image-eb77471d-6b09-4101-bd04-f5a7497c2df8']/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div[3]/ul/li[2]/div/div/div/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad6358eb-5d04-499a-aec0-d40bb9e3d2f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dash Cams",
+      "targets": [
+        ["linkText=Dash Cams", "linkText"],
+        ["css=#navPages-58 .navPage-childList-action", "css:finder"],
+        ["xpath=//a[contains(text(),'Dash Cams')]", "xpath:link"],
+        ["xpath=//ul[@id='navPages-58']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shopsmartcanada.com/automotive-tires/automotive-electronics/dash-cams/')]", "xpath:href"],
+        ["xpath=//li[2]/div/div[3]/ul/li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dash Cams')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f505b87-8c71-4e33-93ab-3bbf89bafbc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product:nth-child(2) .card-image:nth-child(2)",
+      "targets": [
+        ["css=.product:nth-child(2) .card-image:nth-child(2)", "css:finder"],
+        ["xpath=(//img[@alt='Garmin Dash Cam Mini 2'])[2]", "xpath:img"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li[2]/article/figure/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/article/figure/a/div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97f7256d-f953-438c-965a-26da9425cc98",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-action-addToCart",
+      "targets": [
+        ["id=form-action-addToCart", "id"],
+        ["css=#form-action-addToCart", "css:finder"],
+        ["xpath=//button[@id='form-action-addToCart']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div[2]/div/div[2]/div/div/div/section/div[4]/form/div[2]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4ea9040-a256-4d79-811f-2a52888b2f88",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,184.68333435058594)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6f1db8f6-9869-4d45-98ca-06f53892a2f5",
+    "name": "Search_results_Shop_Smart",
+    "commands": [{
+      "id": "e44c96f6-afa2-4570-b180-ce0d7cf2fadf",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopsmartcanada.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a99142d4-ee6c-4d50-973b-25c0ca0fa802",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "879x601",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "376710e4-ac24-4258-bed3-6570e0d4757e",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69971174-0c77-4202-8499-fcacebe35905",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "962b9246-c630-46f2-98d8-2d6052f17095",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "dashcam"
+    }, {
+      "id": "815ecc49-8e28-427b-bb8a-9da9ecd19c5b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "f0c1e867-7766-4a6c-9f09-6daf2b88c7b1",
+    "name": "Search_results_Leons",
+    "commands": [{
+      "id": "9d8f630b-06fe-418c-bba4-203d2961aa28",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.leons.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca99f0c6-3b2b-4576-8e1a-5ab29b30a86e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "879x601",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9f3dab4-0226-4fa6-8e7d-6e6fc45515b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-icon svg",
+      "targets": [
+        ["css=.search-icon svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d630e06-de57-4577-9ed3-09c4ec780086",
+      "comment": "",
+      "command": "type",
+      "target": "css=.dropdown-menu .header-top-search",
+      "targets": [
+        ["css=.dropdown-menu .header-top-search", "css:finder"],
+        ["xpath=(//input[@name='q'])[2]", "xpath:attributes"],
+        ["xpath=//header[@id='header']/div[3]/div[2]/div/form/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/div/input[2]", "xpath:position"]
+      ],
+      "value": "couch"
+    }, {
+      "id": "2106b167-dbb7-4cf7-afa3-d2597023a1d0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.dropdown-menu .header-top-search",
+      "targets": [
+        ["css=.dropdown-menu .header-top-search", "css:finder"],
+        ["xpath=(//input[@name='q'])[2]", "xpath:attributes"],
+        ["xpath=//header[@id='header']/div[3]/div[2]/div/form/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/div/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "fd1877be-1263-4a0c-823f-06b24087e71c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.middle-cell p",
+      "targets": [
+        ["css=.middle-cell p", "css:finder"],
+        ["xpath=//div[@id='main-banner']/div/div/div/div[2]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Means you Always Get the Best Price')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a275d7d7-9a32-4994-ac95-ea8c57f89cd0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.middle-cell p",
+      "targets": [
+        ["css=.middle-cell p", "css:finder"],
+        ["xpath=//div[@id='main-banner']/div/div/div/div[2]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Means you Always Get the Best Price')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65d8a537-cd1e-44a7-bd0f-63f7e64e5a7a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.middle-cell div",
+      "targets": [
+        ["css=.middle-cell div", "css:finder"],
+        ["xpath=//div[@id='main-banner']/div/div/div/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a56859ce-7918-4098-b3ce-7830312a1a59",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.middle-cell div",
+      "targets": [
+        ["css=.middle-cell div", "css:finder"],
+        ["xpath=//div[@id='main-banner']/div/div/div/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c18dbc49-55c0-4cb2-8118-79853751a2a4",
+    "name": "Add_to_Cart_Leons",
+    "commands": [{
+      "id": "aa0d1f2f-f589-4e1c-8a8c-4930846defea",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.leons.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87931f25-0121-4ef4-82a7-d3cea658cc16",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "879x601",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0d538d3-1d67-4ab0-b4ae-d0c09663051a",
+      "comment": "",
+      "command": "click",
+      "target": "id=mattresses-bg",
+      "targets": [
+        ["id=mattresses-bg", "id"],
+        ["css=#mattresses-bg", "css:finder"],
+        ["xpath=//div[@id='mattresses-bg']", "xpath:attributes"],
+        ["xpath=//div[@id='categories']/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77d76670-7df0-42b2-adcc-787a99aeb400",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-2:nth-child(1)",
+      "targets": [
+        ["css=.col-md-2:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='nav']/nav/div/div/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8516f23c-5e74-4d2a-85a5-f75b8b50487a",
+      "comment": "",
+      "command": "click",
+      "target": "id=cm-hamburger",
+      "targets": [
+        ["id=cm-hamburger", "id"],
+        ["css=#cm-hamburger", "css:finder"],
+        ["xpath=//a[@id='cm-hamburger']", "xpath:attributes"],
+        ["xpath=//div[@id='nav']/nav/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7f8b43b-a201-4604-a219-43c5385deb4d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mattresses",
+      "targets": [
+        ["linkText=Mattresses", "linkText"],
+        ["css=#cm-all li:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Mattresses')]", "xpath:link"],
+        ["xpath=//div[@id='cm-all']/ul/li[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#cm-mattresses')])[2]", "xpath:href"],
+        ["xpath=//li[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Mattresses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0da9911-6fa1-4a86-b3e5-ea6974fa5671",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=All Mattresses",
+      "targets": [
+        ["linkText=All Mattresses", "linkText"],
+        ["css=#cm-mattresses li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'All Mattresses')]", "xpath:link"],
+        ["xpath=//div[@id='cm-mattresses']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/mattresses')]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'All Mattresses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e37ccc06-ed0a-4f0b-b969-afd6f117500b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container:nth-child(2) > .mattress-facets:nth-child(3) > .card:nth-child(1) > a",
+      "targets": [
+        ["css=.container:nth-child(2) > .mattress-facets:nth-child(3) > .card:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='shopify-section-page-ct-mattresses-by-size']/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/collections/mattresses-mattress-only-crib-size')])[3]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bbb781b-6a9d-4568-906e-94553c27cbf6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ais-InfiniteHits-item:nth-child(1) .ais-hit--image > img",
+      "targets": [
+        ["css=.ais-InfiniteHits-item:nth-child(1) .ais-hit--image > img", "css:finder"],
+        ["xpath=//img[@alt='Simmons Beautyrest Super Firm Crib Mattress']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div[4]/div[2]/div/div/ol/li/div[2]/a/div/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed7896b2-757f-49cf-9fb2-5457ed685f22",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,685.2833251953125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "357b3a84-fad1-4835-bda4-d467eb480ead",
+      "comment": "",
+      "command": "click",
+      "target": "id=addToCart",
+      "targets": [
+        ["id=addToCart", "id"],
+        ["name=add", "name"],
+        ["css=#addToCart", "css:finder"],
+        ["xpath=//button[@id='addToCart']", "xpath:attributes"],
+        ["xpath=//form[@id='addToCartForm']/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "225ca6ba-0556-46c3-942b-27f3b0f506bc",
+    "name": "Filter_results_Leons",
+    "commands": [{
+      "id": "463ddbb5-9f82-4eef-b308-8feeeb5c8608",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.leons.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44111f8c-2d17-4d51-9ecf-2f5fb719714b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "879x601",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e83d387d-227f-4972-8e11-bcb5afac2793",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cm-hamburger > span:nth-child(2)",
+      "targets": [
+        ["css=#cm-hamburger > span:nth-child(2)", "css:finder"],
+        ["xpath=//a[@id='cm-hamburger']/span[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88384ec7-c4bc-415b-b323-0cdd2167d3a9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Furniture",
+      "targets": [
+        ["linkText=Furniture", "linkText"],
+        ["css=li:nth-child(1) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Furniture')]", "xpath:link"],
+        ["xpath=//div[@id='cm-all']/ul/li/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#cm-furniture')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Furniture')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "232ad2ad-3f3c-440c-9ad6-b0ff693161f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bedroom",
+      "targets": [
+        ["linkText=Bedroom", "linkText"],
+        ["css=#cm-furniture li:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Bedroom')]", "xpath:link"],
+        ["xpath=//div[@id='cm-furniture']/ul/li[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#cm-furniture-bedroom')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Bedroom')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce50cc31-59b9-4bbb-a0a8-94a9e2364ca6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Queen Beds",
+      "targets": [
+        ["linkText=Queen Beds", "linkText"],
+        ["css=#cm-furniture-bedroom li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Queen Beds')]", "xpath:link"],
+        ["xpath=//div[@id='cm-furniture-bedroom']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/collections/furniture-bedroom-queen-beds')]", "xpath:href"],
+        ["xpath=//div[15]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Queen Beds')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "335be7e7-10d5-42f2-b142-253617bcdf45",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://demo.guru99.com/test/newtours/", "https://www.homedepot.ca/en/home.html", "https://www.homedepot.ca/myaccount", "https://www.homedepot.ca/product/ryobi-18v-one-lithium-ion-cordless-drill-driver-kit-with-1-5-ah-battery-and-charger/1001686659", "https://shopsmartcanada.com/", "https://www.leons.ca/"],
+  "plugins": []
+}
